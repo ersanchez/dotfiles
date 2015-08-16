@@ -6,4 +6,12 @@ The config files in this repository are not security-sensitive.
 
 This line was added on i7-4790k2
 
-## This will be a subsection
+## dotfile subsection
+
+This subsection contains a list of colors
+
+* blue
+* yellow
+* green
+* red
+* white
