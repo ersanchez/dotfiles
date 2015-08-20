@@ -11,3 +11,6 @@ PS1="\[\033[0;36m\]\u@\h \w$\[\033[0m\] "
 HISTCONTROL=ignoreboth:erasedups
 HISTSIZE=1000
 HISTFILESIZE=1500
+
+# Aliases
+alias "ls=ls --color=auto"
