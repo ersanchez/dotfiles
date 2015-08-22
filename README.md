@@ -9,6 +9,7 @@ dotfiles in this directory include:
 * .abcde.conf
 * .bashrc
 * .bash_profile
+* .gitconfig
 * .profile
 * .tmux.conf
 * .vimrc
