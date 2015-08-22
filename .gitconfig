@@ -5,10 +5,6 @@
 	editor = vim
 [color]
 	ui = true
-# ~/.gitconfig
-#
-# convert *.docx to markdown using pandoc
-
 [diff "pandoc"]
 	textconv=pandoc --to=markdown
 	prompt = false
