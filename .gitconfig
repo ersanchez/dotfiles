@@ -1,0 +1,12 @@
+[user]
+	email = eduardo@sanchez.nu
+	name = Eduardo Sanchez
+[core]
+	editor = vim
+[color]
+	ui = true
+[diff "pandoc"]
+	textconv=pandoc --to=markdown
+	prompt = false
+[alias]
+	wdiff = diff --word-diff=color --unified=1
