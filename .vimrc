@@ -16,4 +16,5 @@
 "
 " syntax on
 " filetype indent plugin on
+au BufNewFile,BufFilePre,BufRead *.md set filetype=markdown
 "
