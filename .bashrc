@@ -14,3 +14,7 @@ HISTFILESIZE=1500
 
 # Aliases
 alias "ls=ls --color=auto"
+alias vi='vim'
+
+# Options
+set -o vi
