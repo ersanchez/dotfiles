@@ -3,6 +3,7 @@
 
 set background=dark	" friendlier colors for dark background
 set hlsearch		" highlight search term
+set matchpairs+=<:>	" adds <> to the [],{}, and ()
 set modeline		" enables vim to read a comment line in scripts
 set nocompatible
 set number			" show line numbers
