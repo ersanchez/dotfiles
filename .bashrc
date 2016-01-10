@@ -16,6 +16,7 @@ HISTFILESIZE=1500
 # Aliases
 alias "ls=ls --color=auto"
 alias vi='vim'
+alias tmux="TERM=screen-256color-bce tmux"
 
 # Options
 set -o vi # enables vim-like editing on the command line
