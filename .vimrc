@@ -1,14 +1,15 @@
 " .vimrc for Eduardo
 " leans heavily on the FreeBSD vimrc_example.vim
 
-set nocompatible
-set tabstop=4		"number of spaces <TAB> is equal to 4
-set shiftwidth=4	" number of spaces for auto-indent
-set number			" show line numbers
-set showmatch		" jump to matching bracket
-set hlsearch		" highlight search term
 set background=dark	" friendlier colors for dark background
+set hlsearch		" highlight search term
 set modeline		" enables vim to read a comment line in scripts
+set nocompatible
+set number		" show line numbers
+set ruler		" show ruler at bottom of page
+set shiftwidth=4	" number of spaces for auto-indent
+set showmatch		" jump to matching bracket
+set tabstop=4		"number of spaces <TAB> is equal to 4
 
 " toggle auto-indent on pasting code
 nnoremap <F2> :set invpaste paste?<CR>
