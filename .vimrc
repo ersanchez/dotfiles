@@ -5,11 +5,11 @@ set background=dark	" friendlier colors for dark background
 set hlsearch		" highlight search term
 set modeline		" enables vim to read a comment line in scripts
 set nocompatible
-set number		" show line numbers
-set ruler		" show ruler at bottom of page
+set number			" show line numbers
+set ruler			" show ruler at bottom of page
 set shiftwidth=4	" number of spaces for auto-indent
 set showmatch		" jump to matching bracket
-set tabstop=4		"number of spaces <TAB> is equal to 4
+set tabstop=4		" number of spaces <TAB> is equal to 4
 
 " toggle auto-indent on pasting code
 nnoremap <F2> :set invpaste paste?<CR>
