@@ -1,6 +1,15 @@
 # Set SHELL to Bash
 SHELL=/bin/bash
-
+#
+# Dotfile sequence on startup
+#
+#When the shell is opened, this is the order in which the files are polled:
+#
+# 1. /etc/profile
+# 2. ~/.bash_profile
+# 3. ~/.bash_login
+# 4. ~/.profile
+#
 # Configure PATH
 # While you can put this all in one line, setting these up 
 # individually allows you to comment out any individual
