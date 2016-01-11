@@ -1,11 +1,16 @@
 # ~/.bashrc
-
+#
+# Dotfile sequence on startup
+#
+# When the shell is opened, files are polled in this order:
+#
+# 1. /etc/profile
+# 2. ~/.bash_profile
+# 3. ~/.bash_login
+# 4. ~/.profile
+#
 # set terminal prompt color
-#PS1="\[\033[1;35m\]\u@\h \w$\[\033[0m\] "
-#export PS1="\[\033[38;5;11m\]\u\[$(tput sgr0)\]\[\033[38;5;15m\]@\h:\[$(tput sgr0)\]\[\033[38;5;6m\][\w]:\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput sgr0)\]"
-#PS1="\[$(tput bold)\]\[\033[38;5;11m\]\u\[$(tput sgr0)\]\[\033[38;5;9m\]@\[$(tput sgr0)\]\[\033[38;5;39m\]\h\[$(tput sgr0)\]\[\033[38;5;15m\]:\[$(tput sgr0)\]\[\033[38;5;6m\][\[$(tput sgr0)\]\[\033[38;5;14m\]\w\[$(tput sgr0)\]\[\033[38;5;6m\]]:\[$(tput sgr0)\]\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput sgr0)\]"
 PS1="\[\033[0;36m\]\u@\h \w$\[\033[0m\] "
-#PS1="\[\033[0;34m\][\u@\h:\w]$\[\033[0m\]"
 
 
 # set history to ignore duplicates
