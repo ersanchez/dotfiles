@@ -18,6 +18,9 @@ set pastetoggle=<F2>
 set showmode
 
 syntax on			" syntax highlighting
+ 
+" set leader to show invisible characters
+nmap <leader>l :set list!<CR>
 
 " autocmd section
 if has("autocmd")
