@@ -14,6 +14,10 @@ set tabstop=4		" number of spaces <TAB> is equal to 4
 
 " toggle auto-indent on pasting code
 nnoremap <F2> :set invpaste paste?<CR>
+" assign ISO8601 datestamp to F5
+nnoremap <F5> i<C-R>=strftime("%F")<CR><Esc>
+" assign ISO8601 timestamp to F6
+nnoremap <F6> i<C-R>=strftime("%FT%T")<CR><Esc>
 set pastetoggle=<F2>
 set showmode
 
