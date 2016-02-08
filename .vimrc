@@ -5,7 +5,7 @@ set background=dark	" friendlier colors for dark background
 set hlsearch		" highlight search term
 set matchpairs+=<:>	" adds <> to the [],{}, and ()
 set modeline		" enables vim to read a comment line in scripts
-set nocompatible
+set nocompatible	" prevents running vim in vi-compatible (limited) mode
 set number			" show line numbers
 set ruler			" show ruler at bottom of page
 set shiftwidth=4	" number of spaces for auto-indent
