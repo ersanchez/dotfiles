@@ -21,10 +21,12 @@ HISTFILESIZE=1500
 alias "ls=ls --color=auto"
 alias vi='vim'
 alias tmux="TERM=screen-256color-bce tmux"
+alias grep="/bin/grep $GREP_OPTIONS"
+unset GREP_OPTIONS
 
 # Options
 set -o vi # enables vim-like editing on the command line
-export GREP_OPTIONS='--color=auto'
+#export GREP_OPTIONS='--color=auto'
 export GREP_COLOR='1;31' # green 
 
 # Editor
