@@ -13,3 +13,5 @@
 	wdiff = diff --word-diff=color --unified=1
 	s = "status -s"
 	lg = "log --oneline --all --graph --decorate"
+[diff]
+	ui = auto
