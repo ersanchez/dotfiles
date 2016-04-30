@@ -3,6 +3,7 @@
 	name = Eduardo Sanchez
 [core]
 	editor = vim
+	autocrlf = input
 [color]
 	ui = true
 [diff "pandoc"]
