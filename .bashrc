@@ -14,8 +14,8 @@ PS1="\[\033[0;36m\]\u@\h \w$\[\033[0m\] "
 
 # set history to ignore duplicates
 HISTCONTROL=ignoreboth:erasedups
-HISTSIZE=1000
-HISTFILESIZE=1500
+HISTSIZE=250
+HISTFILESIZE=250
 
 # Aliases
 alias "ls=ls --color=auto"
