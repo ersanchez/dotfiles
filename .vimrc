@@ -11,6 +11,7 @@ set ruler			" show ruler at bottom of page
 set shiftwidth=4	" number of spaces for auto-indent
 set showmatch		" jump to matching bracket
 set tabstop=4		" number of spaces <TAB> is equal to 4
+set encoding=utf-8	" UTF8
 set ignorecase		" ignore case in searches
 set smartcase		" toggles case-sensitive if you enter a capital
 					" relies on 'set ignorecase' being there
