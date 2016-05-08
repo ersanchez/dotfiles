@@ -5,6 +5,7 @@
 	editor = vim
 	autocrlf = input
 	safecrlf = true
+	excludesfile = /home/ers/.gitignore_global
 [color]
 	ui = true
 [diff "pandoc"]
