@@ -4,6 +4,8 @@
 [core]
 	editor = vim
 	autocrlf = input
+	safecrlf = true
+	excludesfile = /home/ers/.gitignore_global
 [color]
 	ui = true
 [diff "pandoc"]
@@ -15,3 +17,5 @@
 	lg = "log --oneline --all --graph --decorate"
 [diff]
 	ui = auto
+[push]
+	default = simple
