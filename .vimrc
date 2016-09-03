@@ -2,7 +2,9 @@
 " leans heavily on the FreeBSD vimrc_example.vim
 
 set background=dark	" friendlier colors for dark background
+set encoding=utf-8	" UTF8
 set hlsearch		" highlight search term
+set ignorecase		" ignore case in searches
 set matchpairs+=<:>	" adds <> to the default [],{}, and ()
 set modeline		" enables vim to read a comment line in scripts
 set nocompatible	" prevents running vim in vi-compatible (limited) mode
@@ -10,11 +12,12 @@ set number			" show line numbers
 set ruler			" show ruler at bottom of page
 set shiftwidth=4	" number of spaces for auto-indent
 set showmatch		" jump to matching bracket
-set tabstop=4		" number of spaces <TAB> is equal to 4
-set encoding=utf-8	" UTF8
-set ignorecase		" ignore case in searches
 set smartcase		" toggles case-sensitive if you enter a capital
-					" relies on 'set ignorecase' being there
+			" relies on 'set ignorecase' being there
+set tabstop=4		" number of spaces <TAB> is equal to 4
+
+
+
 
 " toggle auto-indent on pasting code
 nnoremap <F2> :set invpaste paste?<CR>
