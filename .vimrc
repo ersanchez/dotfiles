@@ -71,3 +71,6 @@ if has('langmap') && exists('+langnoremap')
   set langnoremap
 endif
 
+" Folding Settings ___________________________________________________________
+
+set foldcolumn=4	" display column in left margin indicating folded sections
