@@ -1,7 +1,10 @@
 " .vimrc for Eduardo
-" leans heavily on the FreeBSD vimrc_example.vim
+" leans heavily on the FreeBSD vimrc_example.vim 
 
+set autoindent		" copy indent level from preceding line
+set autoread		" reload file if updated outside of vim
 set background=dark	" friendlier colors for dark background
+set colorcolumn=+1	" highlight screen columns
 set encoding=utf-8	" UTF8
 set hlsearch		" highlight search term
 set ignorecase		" ignore case in searches
@@ -9,16 +12,18 @@ set matchpairs+=<:>	" adds <> to the default [],{}, and () helpful for html and 
 set modeline		" enables vim to read a comment line in scripts
 set nocompatible	" prevents running vim in vi-compatible (limited) mode
 set number		" show line numbers
+set relativenumber	" show lines +/- from the current line
 set ruler		" show ruler at bottom of page
 set shiftwidth=4	" number of spaces for auto-indent
 set showbreak=↪		" indicate wrapped lines
 set showcmd		" show command on the last line of screen
 set showmatch		" jump to matching bracket
-set showmode		"
+set showmode		" show current mode: INSERT, REPLACE, or VISUAL
 set smartcase		" overrides `ignorecase` if you enter a capital in a search
 			" relies on 'set ignorecase' being there
 set tabstop=4		" number of spaces <TAB> is equal to 4
-set visualbell
+set title		" shows file information at the top
+set visualbell 		" screen flash instead of a beep
 
 " toggle auto-indent on pasting code
 nnoremap <F2> :set invpaste paste?<CR>
