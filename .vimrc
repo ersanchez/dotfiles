@@ -13,18 +13,18 @@ set ignorecase		" ignore case in searches
 set matchpairs+=<:>	" adds <> to the default [],{}, and () helpful for html and xml
 set modeline		" enables vim to read a comment line in scripts
 set nocompatible	" prevents running vim in vi-compatible (limited) mode
-set number		" show line numbers
+set number			" show line numbers
 set relativenumber	" show lines +/- from the current line
-set ruler		" show ruler at bottom of page
+set ruler			" show ruler at bottom of page
 set shiftwidth=4	" number of spaces for auto-indent
 set showbreak=↪		" indicate wrapped lines
-set showcmd		" show command on the last line of screen
+set showcmd			" show command on the last line of screen
 set showmatch		" jump to matching bracket
 set showmode		" show current mode: INSERT, REPLACE, or VISUAL
 set smartcase		" overrides `ignorecase` if you enter a capital in a search
-			" relies on 'set ignorecase' being there
+					" relies on 'set ignorecase' being there
 set tabstop=4		" number of spaces <TAB> is equal to 4
-set title		" shows file information at the top
+set title			" shows file information at the top
 set visualbell 		" screen flash instead of a beep
 
 " toggle auto-indent on pasting code
