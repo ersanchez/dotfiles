@@ -1,6 +1,8 @@
 " .vimrc for Eduardo
 " leans heavily on the FreeBSD vimrc_example.vim 
 
+" Basic Settings _________________________________________________________________________
+
 set autoindent		" copy indent level from preceding line
 set autoread		" reload file if updated outside of vim
 set background=dark	" friendlier colors for dark background
@@ -61,14 +63,6 @@ else
 	set autoindent	" always set autoindenting on
 
 endif " has("autocmd")
-
-" Convenient command to see the difference between the current buffer and the
-" file it was loaded from, thus the changes you made.
-" Only define it when not defined already.
-if !exists(":DiffOrig")
-  command DiffOrig vert new | set bt=nofile | r ++edit # | 0d_ | diffthis
-		  \ | wincmd p | diffthis
-endif
 
 if has('langmap') && exists('+langnoremap')
   " Prevent that the langmap option applies to characters that result from a
