@@ -1,7 +1,7 @@
 " .vimrc for Eduardo
 " leans heavily on the FreeBSD vimrc_example.vim 
 
-" Basic Settings _________________________________________________________________________
+" Basic Settings _____________________________________________________
 
 set autoindent		" copy indent level from preceding line
 set autoread		" reload file if updated outside of vim
@@ -71,6 +71,6 @@ if has('langmap') && exists('+langnoremap')
   set langnoremap
 endif
 
-" Folding Settings ___________________________________________________________
+" Folding Settings ____________________________________________________
 
 set foldcolumn=4	" display column in left margin indicating folded sections
