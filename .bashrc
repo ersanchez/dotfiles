@@ -22,6 +22,7 @@ alias "ls=ls --color=auto"
 alias vi='vim'
 alias tmux="TERM=screen-256color-bce tmux"
 alias grep="/bin/grep $GREP_OPTIONS"
+alias tdbt="task sync; clear; task due.before:tomorrow"
 unset GREP_OPTIONS
 
 # Options
