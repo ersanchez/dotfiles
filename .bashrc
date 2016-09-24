@@ -9,12 +9,30 @@
 # 3. ~/.bash_login
 # 4. ~/.profile
 # 
+# set terminal prompt color
+# 
 # -- TO DO --
 # 1. determine $HOSTNAME
 # 2. set color of PS1 based on $HOSTNAME (different color for diff server?)
 #
-# set terminal prompt color
-PS1="\[\033[0;36m\]\u@\h \w$\[\033[0m\] "
+# PS1 Notes:
+# format: <Esc>[FORMATCODEm - note no closing bracket and follow-on m
+# <Esc> equivalents include \e, \033, \x1B
+#
+# FORMATCODEs
+#     see this site for summary of codes:
+#     http://misc.flogisoft.com/bash/tip_colors_and_formatting
+# You can add multiple FORMATCODES like this:
+#    \e[FORMATCODE;FORMATCODE;FORMATCODEm  ...note that trailing "m"
+# * [0m - removes formatting (set to defaults)
+# * [1m - bold, [21m - reset bold
+# * [7m - inverted background, [27m - reset inverted
+#
+#PS1="\[\033[0;36m\]\u@\h \w$\[\033[0m\] " 	# cyan (), remove format "[0m"
+#PS1="\e[7m[\u@\h]\e[0m \w$ " 		# inverted background
+#PS1="\e[46m[\u@\h]\e[0m \w$ " 		# inverted background
+#PS1="\e[1m\e[34m\e[103m[\u@\h]\e[0m \w$ " 		# inverted background
+PS1="\e[1;97;44m[\u@\h]\e[0m \w$ " 		# inverted background
 
 # set history to ignore duplicates
 HISTCONTROL=ignoreboth:erasedups
