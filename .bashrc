@@ -17,7 +17,10 @@
 #
 # PS1 Notes:
 # format: <Esc>[FORMATCODEm - note no closing bracket and follow-on m
-# <Esc> equivalents include \e, \033, \x1B
+# <Esc> equivalents include 
+# * \e - Bash
+# * \033 - ASCII expressed in octal 
+# * \x1B - ASCII expressed in hexadecimal
 #
 # FORMATCODEs
 #     see this site for summary of codes:
@@ -26,13 +29,13 @@
 #    \e[FORMATCODE;FORMATCODE;FORMATCODEm  ...note that trailing "m"
 # * [0m - removes formatting (set to defaults)
 # * [1m - bold, [21m - reset bold
-# * [7m - inverted background, [27m - reset inverted
 #
-#PS1="\[\033[0;36m\]\u@\h \w$\[\033[0m\] " 	# cyan (), remove format "[0m"
-#PS1="\e[7m[\u@\h]\e[0m \w$ " 		# inverted background
-#PS1="\e[46m[\u@\h]\e[0m \w$ " 		# inverted background
-#PS1="\e[1m\e[34m\e[103m[\u@\h]\e[0m \w$ " 		# inverted background
-PS1="\e[1;97;44m[\u@\h]\e[0m \w$ " 		# inverted background
+#PS1="\[\033[0;36m\]\u@\h \w$\[\033[0m\] "	
+#PS1="\e[7m[\u@\h]\e[0m \w$ "
+#PS1="\e[46m[\u@\h]\e[0m \w$ "		
+#PS1="\e[1m\e[34m\e[103m[\u@\h]\e[0m \w$ "		
+#PS1="\e[97;44m\u@\h\e[0m:\w$ "		
+PS1="\e[97;44m\u@\h:\e[42m\w$\e[0m "		
 
 # set history to ignore duplicates
 HISTCONTROL=ignoreboth:erasedups
