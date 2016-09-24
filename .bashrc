@@ -30,12 +30,7 @@
 # * [0m - removes formatting (set to defaults)
 # * [1m - bold, [21m - reset bold
 #
-#PS1="\[\033[0;36m\]\u@\h \w$\[\033[0m\] "	
-#PS1="\e[7m[\u@\h]\e[0m \w$ "
-#PS1="\e[46m[\u@\h]\e[0m \w$ "		
-#PS1="\e[1m\e[34m\e[103m[\u@\h]\e[0m \w$ "		
-#PS1="\e[97;44m\u@\h\e[0m:\w$ "		
-PS1="\e[97;44m\u@\h:\e[42m\w$\e[0m "		
+PS1="\e[97;42m\u@\h:\e[44m\w$\e[0m "		
 
 # set history to ignore duplicates
 HISTCONTROL=ignoreboth:erasedups
