@@ -11,6 +11,7 @@ set encoding=utf-8	" UTF8
 set hlsearch		" highlight search term
 set ignorecase		" ignore case in searches
 set matchpairs+=<:>	" adds <> to the default [],{}, and () helpful for html and xml
+set matchtime		" tenths of a sec to show matching 'matchpairs'
 set modeline		" enables vim to read a comment line in scripts
 set nocompatible	" prevents running vim in vi-compatible (limited) mode
 set number			" show line numbers
@@ -19,7 +20,7 @@ set ruler			" show ruler at bottom of page
 set shiftwidth=4	" number of spaces for auto-indent
 set showbreak=↪		" indicate wrapped lines
 set showcmd			" show command on the last line of screen
-set showmatch		" jump to matching bracket
+set showmatch=5		" jump to matching bracket
 set showmode		" show current mode: INSERT, REPLACE, or VISUAL
 set smartcase		" overrides `ignorecase` if you enter a capital in a search
 					" relies on 'set ignorecase' being there
