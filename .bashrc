@@ -8,6 +8,10 @@
 # 2. ~/.bash_profile
 # 3. ~/.bash_login
 # 4. ~/.profile
+# 
+# -- TO DO --
+# 1. determine $HOSTNAME
+# 2. set color of PS1 based on $HOSTNAME (different color for diff server?)
 #
 # set terminal prompt color
 PS1="\[\033[0;36m\]\u@\h \w$\[\033[0m\] "
