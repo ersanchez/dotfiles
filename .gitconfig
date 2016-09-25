@@ -15,6 +15,7 @@
 	wdiff = diff --word-diff=color --unified=1
 	s = "status -s"
 	lg = "log --oneline --all --graph --decorate"
+	unadd = reset HEAD
 [diff]
 	ui = auto
 [push]
