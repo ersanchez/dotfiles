@@ -58,7 +58,7 @@ HISTFILESIZE=250
 # Aliases
 alias "ls=ls --color=auto"
 alias vi='vim'
-alias tmux="TERM=screen-256color-bce tmux"
+#alias tmux="TERM=screen-256color-bce tmux"
 alias grep="/bin/grep $GREP_OPTIONS"
 alias tdbt="task sync; clear; task due.before:tomorrow"
 unset GREP_OPTIONS
@@ -73,7 +73,7 @@ export EDITOR='vim'
 export VISUAL='vim'
 
 # set tmux to 256-color terminal
-[ -z "$TMUX"] && export TERM=xterm-256color
+#[ -z "$TMUX"] && export TERM=xterm-256color
 
 # startup SSH Agent on login
 #if ! pgrep -u $USER ssh-agent > /dev/null; then
