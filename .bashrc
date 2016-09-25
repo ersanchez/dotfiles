@@ -30,7 +30,7 @@
 # * [0m - removes formatting (set to defaults)
 # * [1m - bold, [21m - reset bold
 #
-PS1="\e[97;42m\u@\h:\e[44m\w\e[0m $ "		
+PS1="\[\e[97;42m\]\u@\h:\[\e[44m\]\w\[\e[0m\] $ "		
 #
 #[ "$PS1" ] || return 0	# only apply to interactive shell
 #
@@ -57,6 +57,7 @@ HISTFILESIZE=250
 
 # Aliases
 alias "ls=ls --color=auto"
+alias "ll=ls -laFh"
 alias vi='vim'
 #alias tmux="TERM=screen-256color-bce tmux"
 alias grep="/bin/grep $GREP_OPTIONS"
