@@ -30,7 +30,7 @@
 # * [0m - removes formatting (set to defaults)
 # * [1m - bold, [21m - reset bold
 #
-PS1="\[\e[97;42m\]\u@\h:\[\e[44m\]\w\[\e[0m\] $ "		
+PS1="\[\e[30;42m\]\u@\h:\[\e[44m\]\w\[\e[0m\] $ "		
 #
 #[ "$PS1" ] || return 0	# only apply to interactive shell
 #
