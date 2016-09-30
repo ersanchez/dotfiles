@@ -30,21 +30,8 @@ PS1="\[\e[30;42m\]\u@\h:\[\e[44m\]\w\[\e[0m\] $ "
 #
 #[ "$PS1" ] || return 0	# only apply to interactive shell
 #
-# Check whether on server or non-server
-#
-#path_color='\e[44m'
-#user_color='\e[97;42m'
-#case $(hostname -s) in
-#i7-4790)
-#	host_color='\e[97;42m'
-#	;;
-#n54l*)
-#	host_color='\e[97;41m'
-#	;;
-#esac
 #ORIG_PS1=$PS1
 #PS1=''${user_color}'\u@'${host_color}'\h:'${path_color}'\w$\e[0m '
-#unset prompt_color
 
 # set history to ignore duplicates
 HISTCONTROL=ignoreboth:erasedups
