@@ -11,10 +11,6 @@
 # 
 # set terminal prompt color
 # 
-# -- TO DO --
-# 1. determine $HOSTNAME
-# 2. set color of PS1 based on $HOSTNAME (different color for diff server?)
-#
 # PS1 Notes:
 # format: <Esc>[FORMATCODEm - note no closing bracket and follow-on m
 # <Esc> equivalents include 
