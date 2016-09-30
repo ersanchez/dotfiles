@@ -72,15 +72,3 @@ export GREP_COLOR='1;31' # green
 # Editor
 export EDITOR='vim'
 export VISUAL='vim'
-
-# set tmux to 256-color terminal
-#[ -z "$TMUX"] && export TERM=xterm-256color
-
-# startup SSH Agent on login
-#if ! pgrep -u $USER ssh-agent > /dev/null; then
-#    ssh-agent > ~/.ssh-agent-thing
-#fi
-#if [[ "$SSH_AGENT_PID" == "" ]]; then
-#    eval $(<~/.ssh-agent-thing)
-#fi
-#ssh-add -l >/dev/null || alias ssh='ssh-add -l >/dev/null || ssh-add && unalias ssh; ssh'
