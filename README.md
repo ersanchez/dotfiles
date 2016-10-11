@@ -8,8 +8,10 @@ dotfiles in this directory include:
 
 * .abcde.conf
 * .bashrc
+* .bash_logout
 * .bash_profile
 * .gitconfig
+* .gitignore
 * .profile
 * .tmux.conf
 * .vimrc
