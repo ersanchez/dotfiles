@@ -39,8 +39,9 @@ HISTSIZE=250
 HISTFILESIZE=250
 
 # Aliases
-alias "ls=ls --color=auto"
-alias "ll=ls -laFh"
+alias ls="ls --color=auto -F"
+alias ll="ls -laFh"
+alias ldir="ls -l | grep '^d'"
 alias vi='vim'
 #alias tmux="TERM=screen-256color-bce tmux"
 alias grep="/bin/grep $GREP_OPTIONS"
