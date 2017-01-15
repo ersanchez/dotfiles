@@ -22,6 +22,3 @@ export PATH=/usr/local/sbin:$PATH
 
 # read .bashrc when starting tmux
 . ~/.bashrc
-
-# start ssh-agent on login
-eval `ssh-agent`
