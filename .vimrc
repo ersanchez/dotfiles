@@ -34,6 +34,9 @@ nnoremap <F2> :set invpaste paste?<CR>
 nnoremap <F5> i<C-R>=strftime("%F")<CR><Esc>
 " assign ISO8601 timestamp to F6
 nnoremap <F6> i<C-R>=strftime("%FT%T")<CR><Esc>
+" swap colon with semicolon
+nnoremap ; :
+nnoremap : ;
 set pastetoggle=<F2>
 set showmode
 
