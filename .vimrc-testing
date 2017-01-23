@@ -64,5 +64,5 @@ au BufEnter *.md setlocal foldmethod=expr
 " }}}
 
 " Customizations
-nnoremap ; :		" I don't use semi-colon ever ...why shift???
-nnoremap : ;		" ditto
+nnoremap ; :	
+nnoremap : ;
