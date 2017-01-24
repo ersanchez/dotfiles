@@ -64,5 +64,5 @@ au BufEnter *.md setlocal foldmethod=expr
 " }}}
 
 " Customizations
-nnoremap ; :	
-nnoremap : ;
+"nnoremap ; :	
+"nnoremap : ;
