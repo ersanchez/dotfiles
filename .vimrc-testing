@@ -43,7 +43,7 @@ set colorcolumn=80
 
 " Folding Settings ________________________________________________________ {{{
 
-set foldcolumn=4	" display column in left margin indicating folded sections
+set foldcolumn=5	" display column in left margin indicating folded sections
 
 function! MarkdownLevel()
 	if getline(v:lnum) =~ '^# .*$'
@@ -54,6 +54,9 @@ function! MarkdownLevel()
 	endif
 	if getline(v:lnum) =~ '^### .*$'
 		return ">3"
+	endif
+	if getline(v:lnum) =~ '^#### .*$'
+		return ">4"
 	endif
 	return "="
 endfunction
