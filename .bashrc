@@ -35,8 +35,8 @@ PS1="\[\e[30;42m\]\u@\h:\[\e[44m\]\w\[\e[0m\] $ "
 
 # set history to ignore duplicates
 HISTCONTROL=ignoreboth:erasedups
-HISTSIZE=250
-HISTFILESIZE=250
+HISTSIZE=50
+HISTFILESIZE=50
 
 # Aliases
 alias ls="ls --color=auto -F"
