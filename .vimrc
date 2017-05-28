@@ -1,5 +1,5 @@
 " .vimrc for Eduardo
-" leans heavily on the FreeBSD vimrc_example.vim 
+" leans heavily on the FreeBSD vimrc_example.vim
 
 " Basic Settings _____________________________________________________
 
@@ -29,11 +29,15 @@ set title		" shows file information at the top
 set visualbell 		" screen flash instead of a beep
 
 " toggle auto-indent on pasting code
+
 nnoremap <F2> :set invpaste paste?<CR>
+
 " assign ISO8601 datestamp to F5
 nnoremap <F5> i<C-R>=strftime("%F")<CR><Esc>
+
 " assign ISO8601 timestamp to F6
 nnoremap <F6> i<C-R>=strftime("%FT%T")<CR><Esc>
+
 " swap colon with semicolon
 nnoremap ; :		" I don't use semi-colon ever ...why shift???
 nnoremap : ;		" ditto
