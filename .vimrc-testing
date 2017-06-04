@@ -43,6 +43,9 @@ set colorcolumn=80
 " Set the *.md file extension to be same as *.markdown
 autocmd BufNewFile *.md set filetype=markdown
 
+" Set a skeleton file for new *.html projects
+autocmd BufNewFile *.html 0r $HOME/Documents/skeleton.html
+
 " Folding Settings ________________________________________________________ {{{
 
 set foldcolumn=5	" display column in left margin indicating folded sections
