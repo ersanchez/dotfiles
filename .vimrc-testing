@@ -38,8 +38,10 @@ syntax on		" syntax highlighting
 
 autocmd BufWinEnter * highlight ColorColumn ctermbg=darkred
 set colorcolumn=80
-
 " }}}
+
+" Set the *.md file extension to be same as *.markdown
+autocmd BufNewFile *.md set filetype=markdown
 
 " Folding Settings ________________________________________________________ {{{
 
@@ -66,7 +68,7 @@ au BufEnter *.md setlocal foldmethod=expr
 
 " }}}
 
-" Customizations
+" Customizations _____________________________________________________________
 
 " Reassign BACKSPACE (<BS>) key to remove highlighting when done searching
 nmap <silent>	<BS>	:nohlsearch<CR>
