@@ -39,8 +39,8 @@ nnoremap <F5> i<C-R>=strftime("%F")<CR><Esc>
 nnoremap <F6> i<C-R>=strftime("%FT%T")<CR><Esc>
 
 " swap colon with semicolon
-nnoremap ; :		" I don't use semi-colon ever ...why shift???
-nnoremap : ;		" ditto
+"nnoremap ; :		" I don't use semi-colon ever ...why shift???
+"nnoremap : ;		" ditto
 set pastetoggle=<F2>
 set showmode
 
