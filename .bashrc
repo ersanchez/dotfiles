@@ -49,6 +49,9 @@ alias tdbt="task sync; clear; task due.before:tomorrow"
 alias tdtw="task sync; clear; task list +WEEK"
 alias vpn="cd /home/ers/tmp && sudo openvpn --config i7-6700k.ovpn"
 alias weather="curl wttr.in/06103"
+# make dateutils easier
+alias dateadd="/usr/bin/dateutils.dadd"
+alias datediff="/usr/bin/dateutils.ddiff"
 unset GREP_OPTIONS
 
 # Options
