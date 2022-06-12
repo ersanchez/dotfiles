@@ -18,7 +18,7 @@
 # * \033 - ASCII expressed in octal 
 # * \x1B - ASCII expressed in hexadecimal
 #
-# FORMATCODEs
+# FORMATCODE
 #     see this site for summary of codes:
 #     http://misc.flogisoft.com/bash/tip_colors_and_formatting
 # You can add multiple FORMATCODES like this:
@@ -37,6 +37,7 @@ PS1="\[\e[30;42m\]\u@\h:\[\e[44m\]\w\[\e[0m\] $ "
 HISTCONTROL=ignoreboth:erasedups
 HISTSIZE=50
 HISTFILESIZE=50
+HISTTIMEFORMAT="%FT%T"
 
 # Aliases
 alias ls="ls --color=auto -F"
