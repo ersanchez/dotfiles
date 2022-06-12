@@ -37,7 +37,7 @@ PS1="\[\e[30;42m\]\u@\h:\[\e[44m\]\w\[\e[0m\] $ "
 HISTCONTROL=ignoreboth:erasedups
 HISTSIZE=50
 HISTFILESIZE=50
-HISTTIMEFORMAT="%FT%T"
+HISTTIMEFORMAT="%FT%T "
 
 # Aliases
 alias ls="ls --color=auto -F"
