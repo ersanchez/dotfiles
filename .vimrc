@@ -7,9 +7,12 @@ set autoindent		" copy indent level from preceding line
 set autoread		" reload file if updated outside of vim
 set background=dark	" friendlier colors for dark background
 set colorcolumn=+1	" highlight screen columns
+set cursorline		" highlight the current line
 set encoding=utf-8	" UTF8
 set hlsearch		" highlight search term
+set incsearch		" start searching as soon as you start typing
 set ignorecase		" ignore case in searches
+set laststatus=2	" always show a status bar
 set matchpairs+=<:>	" adds <> to the default [],{}, and () helpful for html and xml
 "set matchtime		" tenths of a sec to show matching 'matchpairs'
 set modeline		" enables vim to read a comment line in scripts
