@@ -64,10 +64,11 @@ export GREP_COLOR='1;31' # green
 export EDITOR='vim'
 export VISUAL='vim'
 
+# temporarily disabled: was causing issues with git
 # ssh-agent: start on boot and only allow one instance to run at a time
-if ! pgrep -u "$USER" ssh-agent > /dev/null; then
-    ssh-agent > ~/.ssh-agent-thing
-fi
-if [[ "$SSH_AGENT_PID" == "" ]]; then
-    eval "$(<~/.ssh-agent-thing)"
-fi
+#if ! pgrep -u "$USER" ssh-agent > /dev/null; then
+#    ssh-agent > ~/.ssh-agent-thing
+#fi
+#if [[ "$SSH_AGENT_PID" == "" ]]; then
+#    eval "$(<~/.ssh-agent-thing)"
+#fi
