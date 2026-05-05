@@ -24,3 +24,14 @@ SHELL=/bin/bash
 
 # read .bashrc when starting tmux
 . ~/.bashrc
+
+# Load bashrc if it exists
+if [ -f ~/.bashrc ]; then
+  source ~/.bashrc
+fi
+
+# Set PATH (adjust if needed for your setup)
+export PATH="/usr/local/bin:$PATH"
+
+# Silence the zsh warning on macOS
+export BASH_SILENCE_DEPRECATION_WARNING=1
